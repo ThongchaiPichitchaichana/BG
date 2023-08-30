@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ธงชัย\\Desktop\\BG7.0\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\ธงชัย\\Desktop\\GIT\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ธงชัย\\Desktop\\BG7.0\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\ธงชัย\\Desktop\\GIT\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ธงชัย\\Desktop\\BG7.0\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\ธงชัย\\Desktop\\GIT\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\ธงชัย\\Desktop\\BG7.0\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\ธงชัย\\Desktop\\GIT\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\ธงชัย\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ธงชัย\\Desktop\\BG7.0\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\ธงชัย\\Desktop\\GIT\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ธงชัย\\AppData\\Roaming\\NuGet\\NuGet.Config",
