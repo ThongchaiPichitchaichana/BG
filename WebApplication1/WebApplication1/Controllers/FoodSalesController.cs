@@ -50,8 +50,8 @@ namespace WebApplication1.Controllers
                          r.RegionName == RegionName ||
                          c.CityName == CityName ||
                         p.Category == Category ||
-                        p.ProductName == ProductName ||
-                        o.Quantity == Quantity ||  p.UnitPrice == UnitPrice 
+                        p.ProductName == ProductName 
+                
                     select
                     new
                     {
