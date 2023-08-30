@@ -39,7 +39,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SearchbyColumn(string? RegionName,string? CityName ,string? Category ,string? ProductName )
+        public async Task<IActionResult> SearchbyColumn(string? RegionName,string? CityName ,string? Category ,string? ProductName ,string? Quantity ,string? UnitPrice)
         {
 
             var a = from o in _context.Orders
@@ -50,8 +50,8 @@ namespace WebApplication1.Controllers
                          r.RegionName == RegionName ||
                          c.CityName == CityName ||
                         p.Category == Category ||
-                        p.ProductName == ProductName 
-                       
+                        p.ProductName == ProductName ||
+                        o.Quantity == Quantity ||  p.UnitPrice == UnitPrice 
                     select
                     new
                     {
