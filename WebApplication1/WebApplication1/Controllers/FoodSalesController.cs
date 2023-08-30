@@ -39,7 +39,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SearchbyColumn(string? RegionName,string? CityName ,string? Category ,string? ProductName ,string? Quantity ,string? UnitPrice)
+        public async Task<IActionResult> SearchbyColumn(string? RegionName,string? CityName ,string? Category ,string? ProductName )
         {
 
             var a = from o in _context.Orders
